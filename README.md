@@ -22,6 +22,7 @@ protoc --js_out=import_style=commonjs,binary:. --grpc-web_out=import_style=commo
 
 ## Run the server
 ```bash
+npm install
 GRPC_VERBOSITY=DEBUG GRPC_TRACE=all node server.js
 ```
 
